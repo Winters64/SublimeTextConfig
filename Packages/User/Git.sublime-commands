@@ -1,0 +1,21 @@
+[
+    {
+        "caption": "Git: Graph Log",
+        "command": "git_custom",
+        "args": {
+            "cmd": "log --all --graph --color --format='%h / %cr / %cn -%d %s'",
+            "output": "view",
+            "async": false
+        }
+    },
+    {
+        "caption": "Git: Diff Master",
+        "command": "git_custom",
+        "args": {
+            "cmd": "diff master",
+            "output": "view",
+            "async": true,
+            "syntax": "Packages/SublimeGit/syntax/SublimeGit Diff.tmLanguage"
+        }
+    }
+]
