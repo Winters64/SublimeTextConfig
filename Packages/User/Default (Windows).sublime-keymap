@@ -1,0 +1,10 @@
+[
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+
+	{ "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+]
